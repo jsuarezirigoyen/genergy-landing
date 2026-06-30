@@ -21,8 +21,8 @@ a{color:inherit}
 .gn-btn-mint{background:#CDFCD8;color:#172886;padding:14px 32px;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none}
 .gn-btn-outline{border:2px solid rgba(255,255,255,0.55);color:#fff;padding:14px 32px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none}
 .gn-hero-ctas{display:flex;gap:16px;flex-wrap:wrap}
-.gn-hero-stats{display:flex;gap:48px;flex-wrap:wrap;margin-top:64px;padding-top:32px;border-top:1px solid rgba(255,255,255,0.18)}
-.gn-hero-stat p:first-child{font-size:22px;font-weight:700;color:#CDFCD8}
+.gn-hero-stats{display:flex;gap:40px;flex-wrap:wrap;margin-top:64px;padding-top:32px;border-top:1px solid rgba(255,255,255,0.18)}
+.gn-hero-stat p:first-child{font-size:20px;font-weight:700;color:#CDFCD8}
 .gn-hero-stat p:last-child{font-size:12px;color:rgba(255,255,255,0.65);margin-top:2px}
 .gn-sector-strip{background:#f9fafb;padding:20px 48px;display:flex;align-items:center;gap:40px;border-bottom:1px solid #e5e7eb;flex-wrap:wrap}
 .gn-sector-label{font-size:11px;font-weight:600;letter-spacing:1.5px;color:#9ca3af;text-transform:uppercase;white-space:nowrap}
@@ -30,6 +30,7 @@ a{color:inherit}
 .gn-sep{color:#d1d5db}
 section.problem{background:#EEF6F7;padding:80px 48px}
 section.services{background:#fff;padding:80px 48px}
+section.why{background:#f9fafb;padding:80px 48px;border-top:1px solid #e5e7eb}
 section.process{background:#172886;padding:80px 48px}
 section.latam{background:#fff;padding:80px 48px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 section.cta{background:#2A60A5;padding:80px 48px}
@@ -37,10 +38,18 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 .section-tag{font-size:11px;font-weight:600;letter-spacing:2px;color:#71ACB2;text-transform:uppercase;margin-bottom:12px}
 .section-h2{font-size:34px;font-weight:700;color:#172886;margin-bottom:16px}
 .section-h2-white{font-size:34px;font-weight:700;color:#fff;margin-bottom:48px;max-width:480px}
-.problem-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.problem-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:48px}
 .problem-card{background:#fff;border-radius:12px;padding:28px}
-.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:48px}
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:32px}
 .svc-card{border:1px solid #e5e7eb;border-radius:12px;padding:32px}
+.svc-card-featured{border:2px solid #172886;border-radius:12px;padding:32px;background:linear-gradient(135deg,#f0f4ff 0%,#e8f2fa 100%);margin-bottom:4px;grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.svc-featured-left h3{font-size:22px;font-weight:700;color:#172886;margin-bottom:10px}
+.svc-featured-left p{font-size:14px;color:#374151;line-height:1.7;margin-bottom:20px}
+.svc-featured-pills{display:flex;flex-wrap:wrap;gap:8px}
+.svc-featured-right{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.svc-feat-item{background:#fff;border-radius:8px;padding:14px;border:1px solid #dbe4f0}
+.svc-feat-item p:first-child{font-size:12px;font-weight:700;color:#172886;margin-bottom:4px}
+.svc-feat-item p:last-child{font-size:11px;color:#6b7280;line-height:1.5}
 .svc-tag{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px}
 .svc-h3{font-size:18px;font-weight:600;color:#111827;margin-bottom:10px}
 .svc-p{font-size:13px;color:#6b7280;line-height:1.65;margin-bottom:20px}
@@ -49,6 +58,13 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 .tag-mid{background:#E8F4F8;color:#1d5f7a;font-size:11px;font-weight:500;padding:4px 10px;border-radius:4px}
 .tag-green{background:#EDF7F0;color:#1a5e35;font-size:11px;font-weight:500;padding:4px 10px;border-radius:4px}
 .tag-teal{background:#E8F2F3;color:#2a5f65;font-size:11px;font-weight:500;padding:4px 10px;border-radius:4px}
+.tag-navy{background:#172886;color:#CDFCD8;font-size:11px;font-weight:600;padding:4px 10px;border-radius:4px}
+.tag-dark{background:#0f1a5c;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:4px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
+.why-card{background:#fff;border-radius:12px;padding:24px;border:1px solid #e5e7eb}
+.why-check{width:28px;height:28px;background:#CDFCD8;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#172886;margin-bottom:14px}
+.why-h3{font-size:14px;font-weight:600;color:#172886;margin-bottom:8px}
+.why-p{font-size:12px;color:#6b7280;line-height:1.6}
 .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
 .process-num{width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:18px;font-size:16px;font-weight:700;color:#CDFCD8}
 .process-h3{font-size:15px;font-weight:600;color:#fff;margin-bottom:8px}
@@ -90,6 +106,7 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
   <div class="gn-nav-links">
     <a href="#">Servicios</a>
     <a href="#">Plataforma</a>
+    <a href="#">MRV Upstream</a>
     <a href="#">Estandares</a>
     <a href="#">LATAM</a>
     <a href="#" class="gn-btn-primary">Hablar con un experto</a>
@@ -98,9 +115,9 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 
 <div class="gn-hero">
   <div class="gn-hero-overlay">
-    <p class="gn-hero-tag">Medicion - Seguimiento - Certificacion</p>
-    <h1>Medi, controla y certifica el impacto ambiental de tu empresa</h1>
-    <p class="gn-hero-sub">Combinamos consultoria tecnica con plataforma SaaS para que tu organizacion cumpla con los estandares internacionales ISO 14064, ISO 14067 y GHG Protocol.</p>
+    <p class="gn-hero-tag">Medicion · MRV Upstream · Blockchain · Certificacion</p>
+    <h1>Gestion de emisiones GEI en tiempo real</h1>
+    <p class="gn-hero-sub">Combinamos consultoria tecnica con plataforma SaaS para que tu organizacion cumpla con los estandares internacionales. Soluciones especializadas para industria, O&G upstream y organismos reguladores.</p>
     <div class="gn-hero-ctas">
       <a href="#" class="gn-btn-mint">Solicitar diagnostico gratuito</a>
       <a href="#" class="gn-btn-outline">Ver la plataforma</a>
@@ -109,6 +126,7 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
       <div class="gn-hero-stat"><p>ISO 14064</p><p>Huella corporativa</p></div>
       <div class="gn-hero-stat"><p>ISO 14067</p><p>Huella de producto</p></div>
       <div class="gn-hero-stat"><p>GHG Protocol</p><p>Estandar corporativo</p></div>
+      <div class="gn-hero-stat"><p>OGMP 2.0</p><p>Gold Standard</p></div>
       <div class="gn-hero-stat"><p>EPD Intl.</p><p>Declaracion ambiental</p></div>
     </div>
   </div>
@@ -121,6 +139,7 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
     <span>Cemento</span><span class="gn-sep">·</span>
     <span>Energia</span><span class="gn-sep">·</span>
     <span>Mineria</span><span class="gn-sep">·</span>
+    <span>O&amp;G Upstream</span><span class="gn-sep">·</span>
     <span>Aceria</span><span class="gn-sep">·</span>
     <span>Parques industriales</span><span class="gn-sep">·</span>
     <span>Camaras empresariales</span><span class="gn-sep">·</span>
@@ -131,37 +150,76 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 <section class="problem">
   <p class="section-tag">El desafio</p>
   <h2 class="section-h2" style="max-width:600px">La presion regulatoria sobre las emisiones ya llego a LATAM</h2>
-  <p style="font-size:16px;color:#4b5563;max-width:640px;line-height:1.7">El Mecanismo de Ajuste en Frontera de Carbono (CBAM) de la UE ya afecta a exportadores. Medir y certificar tus emisiones no es solo una buena practica: es una ventaja competitiva.</p>
+  <p style="font-size:16px;color:#4b5563;max-width:640px;line-height:1.7">El Mecanismo de Ajuste en Frontera de Carbono (CBAM) de la UE ya afecta a exportadores. Y la Resolucion 258/2025 de Neuquen establece MRV obligatorio para upstream. Medir y certificar tus emisiones no es opcional: es una exigencia creciente.</p>
   <div class="problem-cards">
     <div class="problem-card" style="border-left:4px solid #2A60A5">
       <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Regulacion internacional</h3>
       <p style="font-size:13px;color:#6b7280;line-height:1.6">CBAM, taxonomia verde europea y requerimientos de cadena de valor ya alcanzan a empresas latinoamericanas exportadoras.</p>
     </div>
     <div class="problem-card" style="border-left:4px solid #71ACB2">
-      <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Datos dispersos</h3>
-      <p style="font-size:13px;color:#6b7280;line-height:1.6">La mayoria de las organizaciones no tiene un sistema centralizado. Los calculos se hacen en planillas sin trazabilidad.</p>
+      <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Datos dispersos sin trazabilidad</h3>
+      <p style="font-size:13px;color:#6b7280;line-height:1.6">La mayoria de las organizaciones calcula sus emisiones en planillas sin trazabilidad pozo-por-pozo, sin factores API Compendium y sin capacidad de verificacion externa.</p>
     </div>
     <div class="problem-card" style="border-left:4px solid #AECCCE">
-      <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Cadenas de valor</h3>
-      <p style="font-size:13px;color:#6b7280;line-height:1.6">Los compradores globales exigen informacion de emisiones. Sin certificacion, se pierde acceso a mercados premium.</p>
+      <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Cadenas de valor globales</h3>
+      <p style="font-size:13px;color:#6b7280;line-height:1.6">Los compradores globales exigen informacion de emisiones verificada. Sin certificacion, se pierde acceso a mercados premium y financiamiento ESG.</p>
+    </div>
+    <div class="problem-card" style="border-left:4px solid #172886">
+      <h3 style="font-size:15px;font-weight:600;color:#172886;margin-bottom:8px">Regulacion upstream · Neuquen</h3>
+      <p style="font-size:13px;color:#6b7280;line-height:1.6">La Res. 258/2025 y Disposicion 1/2026 establecen MRV obligatorio con 5 niveles progresivos, programa LDAR y verificacion por tercero acreditado para el sector O&amp;G upstream.</p>
     </div>
   </div>
 </section>
 
 <section class="services">
   <p class="section-tag">Lo que hacemos</p>
-  <h2 class="section-h2" style="max-width:520px;margin-bottom:0">Tres servicios que se complementan</h2>
+  <h2 class="section-h2" style="max-width:520px;margin-bottom:0">Una plataforma, multiples soluciones</h2>
   <div class="services-grid">
+
+    <div class="svc-card-featured">
+      <div class="svc-featured-left">
+        <p class="svc-tag" style="color:#172886;margin-bottom:8px">Nuevo · MRV Upstream O&amp;G</p>
+        <h3 class="svc-featured-left h3" style="font-size:22px;font-weight:700;color:#172886;margin-bottom:10px">Infraestructura MRV regulatoria para upstream</h3>
+        <p style="font-size:14px;color:#374151;line-height:1.7;margin-bottom:20px">Cumplimiento Res. 258/2025 (Neuquen) + OGMP 2.0 Gold Standard + trazabilidad blockchain. La unica solucion con normativa argentina nativa, modulo gobierno regulatorio y Plan Gas.Ar integrado.</p>
+        <div class="svc-featured-pills">
+          <span class="tag-navy">Res. 258/2025</span>
+          <span class="tag-navy">OGMP 2.0 Level 5</span>
+          <span class="tag-navy">Blockchain GEI</span>
+          <span class="tag-dark">Plan Gas.Ar</span>
+          <span class="tag-blue">LDAR</span>
+          <span class="tag-blue">Metano CH4</span>
+        </div>
+      </div>
+      <div class="svc-featured-right">
+        <div class="svc-feat-item">
+          <p>Motor GEI</p>
+          <p>Factores API Compendium 2021 · inventario pozo-por-pozo · CO2, CH4 y N2O</p>
+        </div>
+        <div class="svc-feat-item">
+          <p>Modulo LDAR</p>
+          <p>OGI · TDLAS · drone · repair window 30-90 dias · cronograma trimestral</p>
+        </div>
+        <div class="svc-feat-item">
+          <p>Blockchain</p>
+          <p>Registro inmutable de mediciones GEI · trazabilidad para verificacion externa</p>
+        </div>
+        <div class="svc-feat-item">
+          <p>Reporte 1 click</p>
+          <p>Informe oficial listo para la DPH · reconciliacion BU to TD automatica</p>
+        </div>
+      </div>
+    </div>
+
     <div class="svc-card" style="border-left:4px solid #172886">
       <p class="svc-tag" style="color:#2A60A5">Consultoria</p>
       <h3 class="svc-h3">Huella de carbono organizacional y de producto</h3>
-      <p class="svc-p">Medicion bajo ISO 14064 e ISO 14067 / GHG Protocol. Informe verificable y listo para auditorias.</p>
-      <div class="svc-tags"><span class="tag-blue">ISO 14064</span><span class="tag-blue">ISO 14067</span><span class="tag-blue">GHG Protocol</span></div>
+      <p class="svc-p">Medicion bajo ISO 14064 e ISO 14067 / GHG Protocol. Scope 2 Location Based y Market Based. Informe verificable y listo para auditorias.</p>
+      <div class="svc-tags"><span class="tag-blue">ISO 14064</span><span class="tag-blue">ISO 14067</span><span class="tag-blue">GHG Protocol</span><span class="tag-blue">Scope 2 LB/MB</span></div>
     </div>
     <div class="svc-card" style="border-left:4px solid #4B95C0">
       <p class="svc-tag" style="color:#4B95C0">Plataforma SaaS</p>
       <h3 class="svc-h3">Sistema de seguimiento de emisiones</h3>
-      <p class="svc-p">Dashboard de monitoreo continuo para empresas, cadenas de valor, organismos publicos y todo tipo de organizaciones. Datos centralizados, trazables y listos para reportar.</p>
+      <p class="svc-p">Dashboard de monitoreo continuo con datos centralizados, trazables y listos para reportar. Multi-tenant para empresas, cadenas de valor, organismos publicos y reguladores.</p>
       <div class="svc-tags"><span class="tag-mid">Empresa individual</span><span class="tag-mid">Cadena de valor</span><span class="tag-mid">Parque industrial</span><span class="tag-mid">Gobierno</span></div>
     </div>
     <div class="svc-card" style="border-left:4px solid #71ACB2">
@@ -179,14 +237,52 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
   </div>
 </section>
 
+<section class="why">
+  <p class="section-tag">Diferencial</p>
+  <h2 class="section-h2" style="max-width:560px">Por que Genergy</h2>
+  <p style="font-size:15px;color:#4b5563;max-width:640px;line-height:1.7">Nadie mas esta haciendo esto en Argentina con este alcance. Normativa argentina nativa, modulo gobierno regulatorio y precio accesible — frente a soluciones globales como Sphera o Enablon que no contemplan la regulacion local ni Plan Gas.Ar.</p>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">Normativa argentina nativa</h3>
+      <p class="why-p">Res. 258/2025, Disposicion 1/2026 y Plan Gas.Ar integrados de origen. No un addon: el nucleo del sistema.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">OGMP 2.0 Level 5 · Gold Standard</h3>
+      <p class="why-p">Reconciliacion Bottom-Up y Top-Down con validacion satelital IMEO/MARS, MethaneSAT y GHGSat.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">Modulo gobierno regulatorio</h3>
+      <p class="why-p">Vista dedicada para el regulador neuquino con open data, alertas IMEO/MARS y cumplimiento en tiempo real.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">Demo operativo en dias</h3>
+      <p class="why-p">MVP funcional en 4 semanas. Stack moderno portable a cualquier infraestructura — on-premise o nube.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">LDAR + RTOC integrado</h3>
+      <p class="why-p">Cronograma de reparacion, prioridades y deadlines. Programa LDAR con repair window de 30 a 90 dias segun Disp. 1/2026.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-check">&#10003;</div>
+      <h3 class="why-h3">Multi-tenant · operadora + gobierno</h3>
+      <p class="why-p">Una sola plataforma para la operadora y el regulador. Acceso diferenciado, datos compartidos donde corresponde.</p>
+    </div>
+  </div>
+</section>
+
 <section class="process">
   <p class="section-tag">Como trabajamos</p>
-  <h2 class="section-h2-white">Cuatro pasos hacia la certificacion</h2>
+  <h2 class="section-h2-white">Cuatro pasos hacia el cumplimiento</h2>
   <div class="process-grid">
-    <div><div class="process-num">1</div><h3 class="process-h3">Diagnostico inicial</h3><p class="process-p">Relevamos tus fuentes de emision, consumos energeticos y procesos productivos.</p></div>
-    <div><div class="process-num">2</div><h3 class="process-h3">Recoleccion de datos</h3><p class="process-p">Cargamos los datos en la plataforma. Validamos calidad y completitud de la informacion.</p></div>
-    <div><div class="process-num">3</div><h3 class="process-h3">Calculo y analisis</h3><p class="process-p">Calculamos la huella segun el estandar. Identificamos oportunidades de reduccion.</p></div>
-    <div><div class="process-num">4</div><h3 class="process-h3">Informe y certificacion</h3><p class="process-p">Emitimos el informe verificable y acompanamos el proceso de certificacion EPD.</p></div>
+    <div><div class="process-num">1</div><h3 class="process-h3">Diagnostico inicial</h3><p class="process-p">Relevamos tus fuentes de emision, consumos energeticos y procesos productivos. Para upstream: inventario de pozos y areas operativas.</p></div>
+    <div><div class="process-num">2</div><h3 class="process-h3">Recoleccion de datos</h3><p class="process-p">Cargamos los datos en la plataforma con factores API Compendium 2021 o IPCC AR5 segun aplique. Validamos calidad y completitud.</p></div>
+    <div><div class="process-num">3</div><h3 class="process-h3">Calculo y analisis</h3><p class="process-p">Calculamos la huella segun estandar. Para O&amp;G: inventario CH4 pozo-por-pozo, Scope 2 LB/MB y programa LDAR.</p></div>
+    <div><div class="process-num">4</div><h3 class="process-h3">Reporte y certificacion</h3><p class="process-p">Emitimos el informe verificable con registro blockchain para trazabilidad inmutable. Acompanamos la verificacion externa y certificacion EPD.</p></div>
   </div>
 </section>
 
@@ -205,6 +301,8 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
     <div class="latam-mini">
       <div class="latam-mini-card"><p>ISO</p><p>Estandares internacionales</p></div>
       <div class="latam-mini-card"><p>CBAM</p><p>Listo para la UE</p></div>
+      <div class="latam-mini-card"><p>OGMP</p><p>Gold Standard</p></div>
+      <div class="latam-mini-card"><p>MRV</p><p>Upstream O&amp;G</p></div>
     </div>
   </div>
 </section>
@@ -212,12 +310,13 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 <section class="cta">
   <div class="cta-grid">
     <div>
-      <h2 class="cta-h2">Tu empresa exporta o quiere exportar?</h2>
+      <h2 class="cta-h2">Tu empresa exporta, opera en Vaca Muerta o quiere crecer con responsabilidad ambiental?</h2>
       <p class="cta-p">Contanos brevemente tu situacion y te contactamos en menos de 24 horas con una propuesta inicial sin costo.</p>
       <div class="cta-checks">
         <div class="cta-check"><span>&#10003;</span><p>Diagnostico inicial sin cargo</p></div>
         <div class="cta-check"><span>&#10003;</span><p>Propuesta tecnica y economica a medida</p></div>
-        <div class="cta-check"><span>&#10003;</span><p>Equipo tecnico especializado en normativa ISO</p></div>
+        <div class="cta-check"><span>&#10003;</span><p>Equipo tecnico especializado en normativa ISO y regulacion argentina</p></div>
+        <div class="cta-check"><span>&#10003;</span><p>Demo del sistema MRV en dias, no meses</p></div>
       </div>
     </div>
     <div class="cta-form">
@@ -228,6 +327,7 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
         <div><label class="form-label">Email</label><input type="email" class="form-input" placeholder="juan@empresa.com"></div>
         <div><label class="form-label">Que necesitas?</label>
           <select class="form-input">
+            <option>MRV Upstream · O&G (Res. 258/2025)</option>
             <option>Huella de carbono organizacional</option>
             <option>Huella de producto (ISO 14067)</option>
             <option>Plataforma de seguimiento</option>
@@ -244,11 +344,12 @@ footer.gn-footer{background:#0f1a5c;padding:48px;display:grid;grid-template-colu
 <footer class="gn-footer">
   <div>
     <img src="logo.png" height="30" alt="Genergy" style="display:block;margin-bottom:14px">
-    <p class="footer-tagline">Medicion de impacto ambiental para la industria latinoamericana.</p>
+    <p class="footer-tagline">Gestion de emisiones GEI en tiempo real. MRV — Blockchain — Certificacion para la industria latinoamericana.</p>
   </div>
   <div>
     <p class="footer-col-title">Servicios</p>
     <div class="footer-links">
+      <a href="#">MRV Upstream · O&G</a>
       <a href="#">Huella de carbono ISO 14064</a>
       <a href="#">Huella de producto ISO 14067</a>
       <a href="#">Plataforma SaaS</a>
